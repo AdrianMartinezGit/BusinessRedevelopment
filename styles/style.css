@@ -24,6 +24,11 @@ html, body {
     height: 650px;
 }
 
+/* Home Page Text */
+.homeTxt{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 /* Btn */
 .homeTxt a {
     text-decoration: none;
@@ -36,12 +41,44 @@ html, body {
 .homeTxt button:hover a{
     color: black;   
 }
+
+/* second one */
+.homeTxt2 {
+    background-color:rgba(79, 76, 72, 0.781);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    top:20%;
+    left:10%;
+    right:10%;
+    bottom: 20%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+/* Btn */
+.homeTxt2 button{
+    font-size: 20px;
+    padding-left: 14x;
+}
+
+.homeTxt2 a {
+    text-decoration: none;
+    color:white;
+}
+
+.homeTxt2 button:hover{
+    background-color: white;   
+}
+.homeTxt2 button:hover a{
+    color: black;   
+}
+
 /*  */
 
 .test{
     position: absolute;
-    top: 50%;
-    left: 50%;
     z-index: 100;
 }
 
@@ -113,7 +150,7 @@ html, body {
 
 
 
-/* Responsiveness */
+/* Responsiveness ?*/
 
 @media screen and (max-width: 440px) {
 
