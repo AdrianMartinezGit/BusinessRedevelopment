@@ -17,3 +17,7 @@ html, body {
 .navbar-brand {
     font-family: 'Rock Salt', cursive;
 }
+
+.hero-image {
+    background-image: url("photographer.jpg");
+}
