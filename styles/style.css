@@ -174,3 +174,117 @@ html, body {
         padding-bottom: 40px;
     }
 }
+
+.careersHeaderTxt {
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Moul', serif;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.careerImg {
+    width: 100%
+}
+.careersUpdateInfo{
+    text-align: center;
+    margin-top: 30px;
+}
+.careerJobInfo{
+    font-family: 'Martel Sans', sans-serif;
+}
+.careerEmailBtn{
+    background-color: black;
+    border-radius: 5px;
+    width: 30%;
+    height: 40%;
+}
+
+.menuHeaderImg {
+    width: 100%;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 0px !important;
+}
+
+.menuTitleTxt{
+    text-align: center;
+    margin-top: -500px;
+    font-family: 'Moul', serif;
+    color: white;
+    font-size: 50px;
+
+}
+
+.menuHeroImg {
+    margin: 0px;
+    padding: 0px;
+}
+.pastryHeaderTxt {
+    text-align: center;
+    margin-top: 500px;
+    font-family: 'Moul', serif;
+    font-size: 30px;
+   
+}
+.menuPastryImg {
+    margin-top: 40px;
+    width: 100%;
+}
+.menuHeaderTxt{
+    text-align: center;
+}
+.pastryMenuList{
+    margin-top: 30px;
+    list-style-type: none;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 100px;
+    font-family: 'Croissant One', serif;
+
+}
+
+.breadHeaderTxt {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Moul', serif;
+    font-size: 30px;
+}
+.breadMenuList {
+    text-align: center;
+    font-size: 20px;
+    list-style-type: none;
+    font-family: 'Croissant One', serif;
+}
+.menuBreadImg {
+    width: 100%;
+}
+.pantryHeaderTxt{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Moul', serif;
+    font-size: 30px;
+}
+
+.menuPantryImg {
+    width: 100%;
+}
+.pantryMenuList {
+    text-align: center;
+    list-style-type: none;
+    margin-top: 100px;
+    font-size: 20px;
+    font-family: 'Croissant One', serif;
+}
+.menuLassoImg {
+    width: 20%;
+    height: auto;
+}
+.menuInfo {
+    text-align: center;
+    margin-top: -200px;
+    font-family: 'Martel Sans', sans-serif;
+}
