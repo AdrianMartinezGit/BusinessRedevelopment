@@ -41,6 +41,8 @@ html, body {
     color: white;
     letter-spacing: 25px;
     line-height: 150px;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
 .menu-image {
@@ -66,6 +68,7 @@ html, body {
     position: absolute;
     top: 10%;
     left: 5%;
+    border-radius: 25px;
 }
 .footer-img {
     position: absolute;
@@ -110,6 +113,25 @@ html, body {
     text-align: center;
     padding-top: 50px;
     text-shadow: -8px 8px #E3842D;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.footer-container h1 {
+    color: white;
+    font-size: 48px;
+    font-family: 'Moul', serif;
+    position: relative;
+    top: 20px;
+    left: 50px;
+    padding-bottom: 30px;
+}
+.footer-container p {
+    position: relative;
+    left: 100px;
+    color: white;
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 24px;
 }
 
 
