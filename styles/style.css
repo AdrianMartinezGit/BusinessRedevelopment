@@ -17,3 +17,160 @@ html, body {
 .navbar-brand {
     font-family: 'Rock Salt', cursive;
 }
+
+/* carasel */
+.cover{
+    object-fit: cover;
+    height: 650px;
+}
+
+/* Home Page Text */
+.homeTxt{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Btn */
+.homeTxt a {
+    text-decoration: none;
+    color:white;
+}
+
+.homeTxt button:hover{
+    background-color: white;   
+}
+.homeTxt button:hover a{
+    color: black;   
+}
+
+/* second one */
+.homeTxt2 {
+    background-color:rgba(79, 76, 72, 0.781);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    top:20%;
+    left:10%;
+    right:10%;
+    bottom: 20%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+/* Btn */
+.homeTxt2 button{
+    font-size: 20px;
+    padding-left: 14x;
+}
+
+.homeTxt2 a {
+    text-decoration: none;
+    color:white;
+}
+
+.homeTxt2 button:hover{
+    background-color: white;   
+}
+.homeTxt2 button:hover a{
+    color: black;   
+}
+
+/*  */
+
+.test{
+    position: absolute;
+    z-index: 100;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+    width: 100%;
+  }
+/* Google Maps */
+.google-map {
+    padding-bottom: 50%;
+    position: relative;
+}
+
+.google-map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+
+
+/* Quick Links Background */
+.custom-shape-divider-top-1704465252 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1704465252 svg {
+    position: relative;
+    display: block;
+    width: calc(300% + 1.3px);
+    height: 371px;
+}
+
+.custom-shape-divider-top-1704465252 .shape-fill {
+    fill: rgba(252, 229, 205, 1);
+}
+
+/* Review's Background */
+.custom-shape-divider-top-1704466557 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1704466557 svg {
+    position: relative;
+    display: block;
+    width: calc(300% + 1.3px);
+    height: 371px;
+}
+
+.custom-shape-divider-top-1704466557 .shape-fill {
+    fill: #E3842D;
+}
+
+
+
+/* Responsiveness ?*/
+
+@media screen and (max-width: 440px) {
+
+    [class*="col-"] {
+        width: 100%;
+        padding: 18px;
+    }
+
+}
+
+@media (min-width: 441px) and (max-width: 1400px) {
+    #box{
+        width:100%;
+        padding-bottom:18px;
+    }
+
+    #img{
+        display: flex;
+        justify-content: center;
+        width:100%;
+        padding-bottom: 40px;
+    }
+}
