@@ -6,6 +6,9 @@
     <title>MoonBelly</title>
     <link rel="stylesheet" href="../styles/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Croissant+One&family=Martel+Sans:wght@400;900&family=Merriweather:ital@0;1&family=Moul&family=Work+Sans:wght@400;500;800&display=swap" rel="stylesheet">
   </head>
 
   <body>
@@ -28,20 +31,26 @@
       </div>
     </nav>
 
-    <div class="container">
-      <div class="row">
-        <div class="col">
-            <h1>Menu</h1>
-            <img src="" alt="This is a photo of bread pastries">
-        </div>
+   
+    <div>
+        <img class="menuHeaderImg" src="/assets/MenuHeader.webp" alt="This is a photo of bread pastries">
+        <h1 class="menuTitleTxt">Menu</h1>
     </div>
-    <div class="row">
+
+
+    <div class="container">
+        <div>
+            <h3 class="pastryHeaderTxt">Pastries</h3>
+        </div>
+           
+    <div class="row menuPastryBg">
+        
         <div class="col">
-            <h3>Pastries</h3>
-            <img src="" alt="This is a photo of croissants.">
+            
+            <img class="menuPastryImg" src="/assets/MenuPastriesImage.webp" alt="This is a photo of croissants.">
         </div>
         <div class="col">
-            <ul>
+            <ul class="pastryMenuList">
                 <li>Traditional Croissant</li>
                 <li>Chocolate Croissant</li>
                 <li>Almond Croissant</li>
@@ -60,14 +69,19 @@
             </ul>
         </div>
     </div>
+
+    <div>
+        <h3 class="breadHeaderTxt">Sourdough Breads</h3>
+    </div>
+
     <div class="row">
         <div class="col">
-            <h3>Sourdough Breads</h3>
-            <ul>
+            
+            <ul class="breadMenuList">
                 <li>Table Loaf</li>
                 <li>Seed Loaf</li>
                 <li>Walnut Loaf</li>
-                <li>Sandwich Loaf/li>
+                <li>Sandwich Loaf</li>
                 <li>Focaccia Baguette</li>
                 <li>Epi</li>
                 <li>Olive Twists (Saturday and Sunday)</li>
@@ -77,16 +91,19 @@
             </ul>
         </div>
         <div class="col">
-            <img src="" alt="This is an image of variety of bread in a basket.">
+            <img class="menuBreadImg" src="/assets/MenuBreadImage.webp" alt="This is an image of variety of bread in a basket.">
         </div>
     </div>
-    <div class="row">
+
+    <div>
+        <h3 class="pantryHeaderTxt">Pantry</h3>
+    </div>
+    <div class="row menuPantryBg">
         <div class="col">
-            <h3>Pantry</h3>
-            <img src="" alt="This is an image of different pantries on a shelf.">
+            <img class="menuPantryImg" src="/assets/MenuPantryImage.webp" alt="This is an image of different pantries on a shelf.">
         </div>
         <div class="col">
-            <ul>
+            <ul class="pantryMenuList">
                 <li>Granola</li>
                 <li>Grissini</li>
                 <li>Jams, Jellies, Marmalades</li>
@@ -96,17 +113,24 @@
             </ul>
         </div>
     </div>
-    <div class="row">
-        <div class="col">
-            <img src="" alt="This is an image of a logo with a lasso.">
-            <h3>No deliveries available, ONLY takeouts.</h3>
-            <h6>Special orders (minimum of 24 pastries or 4 loaves of bread) can be placed via email two days in
-                advance.</h6>
-            <h6>Open at 6511 Folsom Blvd, Friday - Sunday 8 am to 1:30pm!</h6>
-            <h6>Most items listed are available daily and others will change as ingredients come in and out of
-                season.</h6>
-        </div>
-    </div>
+                <div class="row">
+                    <div class="col">
+                        <img class="menuLassoImg" src="/assets/MoonLasso.webp" alt="This is an image of a logo with a lasso.">
+                        <div class="menuInfo">
+                            <h3> <strong>No deliveries available, ONLY takeouts.</strong></h3>
+                            <br>
+                            <h6><strong>Special orders</strong> (minimum of 24 pastries or 4 loaves of bread) can be placed via <strong><a href="/pages/contact.html"><strong>email</strong></a> two days in
+                                advance.</strong></h6>
+                            <br>
+                            <h6><strong>Open at 6511 Folsom Blvd, Friday - Sunday 8 am to 1:30pm!</strong></h6>
+                            <br>
+                            <h6>Most items listed are available daily and others will change as ingredients come in and out of
+                                season.</h6>
+                        </div>
+                      
+                    </div>
+                </div>
+        
     </div>
     
 
