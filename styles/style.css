@@ -46,9 +46,10 @@ html, body {
 .homeTxt2 {
     background-color:rgba(79, 76, 72, 0.781);
     border-radius: 10px;
+    position: absolute;
     text-align: center;
     font-size: 30px;
-    position: absolute;
+    color: white;
     top:20%;
     left:10%;
     right:10%;
@@ -75,10 +76,68 @@ html, body {
     color: black;   
 }
 
+/* Highlight Reviews*/
+
+.highlight{
+    background-color:rgba(79, 76, 72, 0);
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.highlight div:hover{
+    background-color:rgba(5, 5, 5, 0.62);
+    border-radius: 10px;
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+.highlight div:hover h3{
+    color:white;
+}
+
+.highlight div:hover a{
+    color: gold;
+}
+
+.homeTxt3{
+    background-color:rgba(79, 76, 72, 0.781);
+    border-radius: 10px;
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    top:20%;
+    left:10%;
+    right:10%;
+    bottom: 20%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.homeTxt3 a {
+    text-decoration: none;
+    color:white;
+}
+
 /*  */
 
 .test{
     position: absolute;
+    z-index: 100;
+}
+
+.test2{
+    position: absolute;
+    left: 35%;
+    top: 5%;
+    z-index: 100;
+}
+
+.test3{
+    position: absolute;
+    left: 40%;
+    top: 5%;
     z-index: 100;
 }
 
@@ -100,7 +159,7 @@ html, body {
     width: 100%;
     left: 0;
     top: 0;
-    position: absolute;
+    position: re;
 }
 
 
@@ -174,3 +233,33 @@ html, body {
         padding-bottom: 40px;
     }
 }
+
+.cardspacing{
+    margin-bottom: 1.5%;
+}
+
+.hero-image h1 {
+    color: white;
+    font-family: 'Moul', serif; /* Make sure this font exists in html from being referenced in google font */
+    font-size: 96px;
+    text-shadow: -8px 8px black;
+    text-align: center;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    letter-spacing: 25px;
+    line-height: 150px;
+}
+
+.line1 {
+    border-left: 4px solid white;
+    height:150px;
+    position: absolute;
+    margin-left: 16%;
+    margin-top:36px;
+    top:0;
+    
+}
+
