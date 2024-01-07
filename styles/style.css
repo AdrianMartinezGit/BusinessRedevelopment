@@ -224,11 +224,6 @@ html, body {
     /*-webkit-text-stroke-color: black;*/
 }
 
-.menu-header-container h1 {
-    font-size: 96px;
-    text-shadow: -8px 8px #E3842D;
-}
-
 /* Responsiveness ?*/
 
 @media screen and (max-width: 440px) {
@@ -298,8 +293,8 @@ html, body {
     margin-top: -600px;
     font-family: 'Moul', serif;
     color: white;
-    font-size: 50px;
-
+    font-size: 96px;
+    text-shadow: -8px 8px #E3842D;
 }
 
 .menuHeroImg {
@@ -548,7 +543,8 @@ html, body {
     margin-top: -600px;
     font-family: 'Moul', serif;
     color: white;
-    font-size: 50px;
+    font-size: 64px;
+    text-shadow: -8px 8px #E3842D;
 
 }
 
