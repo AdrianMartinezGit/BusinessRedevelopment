@@ -137,7 +137,7 @@ html, body {
 .test3{
     position: absolute;
     left: 40%;
-    top: 5%;
+    top: 15%;
     z-index: 100;
 }
 
@@ -421,8 +421,8 @@ html, body {
 
 .test{
     position: absolute;
-    top: 50%;
-    left: 50%;
+    /*top: 50%;*/
+    /*left: 50%;*/
     z-index: 100;
 }
 
@@ -648,4 +648,9 @@ html, body {
     text-align: center;
     margin-top: -200px;
     font-family: 'Martel Sans', sans-serif;
+}
+
+.about-side {
+    background-color: #FCE5CD;
+    width: 1000px;
 }
