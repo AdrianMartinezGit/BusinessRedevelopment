@@ -224,6 +224,26 @@ html, body {
     /*-webkit-text-stroke-color: black;*/
 }
 
+.pantry-menu-container {
+    overflow-y: hidden;
+}
+
+.contact-background {
+    background-image: url('../assets/ContactBackgroundImage.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 100%;
+    height: 900px;
+}
+
+.contact-background-info-one {
+    background-color: rgba(0, 0, 0, 50%);
+    width: 500px;
+    height: 600px;
+}
+
 /* Responsiveness ?*/
 
 @media screen and (max-width: 440px) {
