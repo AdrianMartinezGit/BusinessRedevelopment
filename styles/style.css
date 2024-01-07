@@ -207,7 +207,22 @@ html, body {
     fill: #E3842D;
 }
 
-
+.hero-image h1 {
+    color: white;
+    font-family: 'Moul', serif;
+    font-size: 96px;
+    text-shadow: -8px 8px black;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    letter-spacing: 25px;
+    line-height: 150px;
+	/*-webkit-text-stroke-width: 1px;*/
+    /*-webkit-text-stroke-color: black;*/
+}
 
 /* Responsiveness ?*/
 
