@@ -659,6 +659,8 @@ html, body {
     background-color: rgba(0, 0, 0, 50%);
     width: 500px;
     height: 600px;
+    color: white;
+    font-family: 'Martel Sans';
 }
 
 .footerStyling {
@@ -666,8 +668,7 @@ html, body {
 }
 
 .footerBgOpacity {
-    background-color: black;
-    opacity: 0.5;
+    background-color: rgba(0, 0, 0, 50%);
     margin-left: 30px;
     margin-bottom: 40px;
     height: 300px;
